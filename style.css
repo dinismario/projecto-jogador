@@ -1,0 +1,170 @@
+@charset "UTF-8";
+body{
+     height: 98vh;
+     background-image: url(imagens/imagem.messi.p.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+header{
+     background-image: linear-gradient(to top,#0c05cce8, white);
+     padding: 20px;
+     min-height: 120px;
+     box-shadow: 20px solid #000000;
+     border-radius: 20px 20px 0px 0px;
+}
+header> h1{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bolder;
+     font-size: 2em;
+     text-align: center;
+     max-width: 800px;
+     margin: auto;
+     padding-bottom: 20px;
+     text-shadow: 1px 1px 0px black;
+     box-shadow: 10px solid #000000;
+}
+header>p{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bolder;
+     text-align: center;
+     max-width: 500px;
+     margin: auto;
+     
+}
+nav{
+     background-color: #0c05cce8;
+     border-radius: 0px 0px 20px 20px;
+     padding-bottom: 20px;
+}
+ nav>a{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bolder;
+     text-decoration: none;
+     color: #ededed;
+     margin: 10px;
+     padding: 10px;
+     transition-duration: 1.0s;    
+}
+nav>a:hover{
+     background-color: #000000e3;
+     color: rgb(8, 0, 255);
+     border-radius: 5px;
+     text-decoration: underline;
+}
+nav>a:active{
+     color: red;
+}
+
+main{
+ background-color: #ffffff;
+ border-radius: 10px 10px 10px 10px;
+}
+main>h2{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bolder;
+     text-align: center;
+     font-style: italic;
+     padding:15px 5px 2px 5px;
+}
+main>p{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bolder;
+     font-style: italic;
+     text-indent: 30px;
+     text-align: justify;
+     line-height: 1.3em;
+     font-style: 1em;
+     margin: auto;
+     max-width: 2000px;
+     padding: 5px 10px 5px 15px;
+}
+section>h3{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bolder;
+     font-style: italic;
+     text-align: center;
+}
+section>picture>img{
+     width: 100%;
+     border-radius: 20px 20px 20px 20px;
+     
+}
+section>p{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bolder;
+     font-style: italic;
+     text-indent: 30px;
+     text-align: justify;
+     line-height: 1.3em;
+     font-style: 1em;
+     margin: auto;
+     max-width: 2000px;
+     padding: 5px 10px 5px 15px;
+}
+aside{
+     background-image: linear-gradient(to top,#0c05cce8, white);
+     text-align: center;
+     border-radius: 14px;
+     
+}
+
+ aside>picture> video{
+     width: 100%;
+ }
+aside>h2{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bolder;
+     font-style: italic;
+     text-align: center;
+     border-radius: 10px 10px 0px 0px;
+}
+aside>ul{
+     margin: auto;
+     columns: 2;
+     list-style-type: '\2714\00A0\00A0'; 
+     list-style-position: inside;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bolder;
+     font-style: italic;
+     padding-bottom: 20px;
+}
+aside>h2{
+
+     background-color: #000000;
+     color: white;
+}
+article>marquee{
+     color: #f9f7f7;
+     background-color: #040404;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bolder;
+     font-style: italic;
+     padding: 10px 10px 5px 5px;
+     border-radius: 5px 5px 5px 5px;
+     margin-top: 10px;
+}
+footer{
+    text-align: center; 
+}
+footer>p>a{
+     color: #080808;
+     background-color: #eae9e980;
+     text-align: center;
+     text-decoration: none;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bolder;
+     font-style: italic;
+     margin:-20px 10px -20px 10px;
+     padding: 10px 10px 5px 5px;
+
+}
+.externo:hover{
+     color: blue;
+     text-decoration: underline;
+}
+.externo:active{
+     color: red;
+}
